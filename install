@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+PATH="${0}"
+root="${PATH%/*}"
+
+# Move the binary to /usr/local/bin using /bin/cp, type $ which cp to confirm path
+"/bin/cp" "${root}/bin/washizator" "/usr/local/bin"
