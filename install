@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 PATH="${0}"
 root="${PATH%/*}"
+cp="/bin/cp"  # Default path of `cp`, ensure by: `$ which cp`
 
-# Move the binary to /usr/local/bin using /bin/cp, type $ which cp to confirm path
-"/bin/cp" "${root}/bin/washizator" "/usr/local/bin"
+# Move the binary to /usr/local/bin, default dehavior
+"${cp}" "${root}/bin/washizator" "/usr/local/bin"
