@@ -2,6 +2,8 @@
 
 Are you feeling a bit _overwhelmed_ or _saddened_? Well, __Washizator__ fixes that for you. It, '[vashizasizes][w] your (coding) experience' [@yablko][y]. That is, it plays some __tunes__ for you.
 
+:notes: _Kamarátka nádej..._ :notes:
+
 ### Download
 
 ```sh
